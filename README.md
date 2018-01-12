@@ -1,7 +1,7 @@
 # Sample Android App using HyperTrack SDK
 A simple Android application demonstrating the use of HyperTrack SDK.
 
-HyperTrack Onboarding link: https://dashboard.hypertrack.com/onboarding/sdk/android
+HyperTrack Setup link: https://dashboard.hypertrack.com/setup
 
 <p>
 <img src="assets/login_activity.png" alt="Login Activity" width="250" height="480">

@@ -109,7 +109,7 @@ HyperTrack.customEvent(order);
 Look into [documentation](http://hypertrack-javadoc.s3-website-us-west-2.amazonaws.com/index.html?com/hypertrack/sdk/HyperTrack.html) for more details.
 
 ###### Enable server to device communication
-Server to device communication uses firebase push notifications as transport for commands so for remote tracking state management Firebase integration is required. So you need to [setup Firebase Cloud Messaging](https://firebase.google.com/docs/android/setup), if you have no push notifications enabled so far. Next step is to specify `HyperTrackMessagingService` as push messages receiver by adding following snippet to your manifest
+Server to device communication uses firebase push notifications as transport for commands so for remote tracking state management Firebase integration is required. So you need to [setup Firebase Cloud Messaging](https://firebase.google.com/docs/android/setup), if you have no push notifications enabled so far. Next step is to specify `HyperTrackMessagingService` as push messages receiver by adding following snippet to your apps Android manifest:
 ```xml
 ...
   <service android:name="com.hypertrack.sdk.HyperTrackMessagingService" android:exported="false">
@@ -119,7 +119,7 @@ Server to device communication uses firebase push notifications as transport for
   </service>
 </application>
 ```
-
+If you already use firebase push notifications you can extend `HyperTrackMessagingService` instead of Firebase, or declare two receivers side by side, if you wish.
 #### You are all set
 
 You can now run the app and start using HyperTrack. You can see your devices on the [dashboard](#dashboard).

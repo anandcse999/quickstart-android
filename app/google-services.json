@@ -1,0 +1,41 @@
+{
+  "comment": "Below is a snippet, how your google-service.json should look like. Get your own at https://firebase.google.com/docs/android/setup",
+  "project_info": {
+    "project_number": "1234567890123",
+    "firebase_url": "https://my-project-1234567890123.firebaseio.com",
+    "project_id": "my-project-1234567890123",
+    "storage_bucket": "my-project-1234567890123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1234567890123:android:123abce",
+        "android_client_info": {
+          "package_name": "com.hypertrack.quickstart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1234567890123-r8q6juv62umg1j3rt9scg6a9ekq1clpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyzgbzc_SomeBAse64strIngAPiKey"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1234567890123-r8q6juv62umg1j3rt9scg6a9ekq1clpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

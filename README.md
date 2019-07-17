@@ -120,6 +120,8 @@ Server to device communication uses firebase push notifications as transport for
 </application>
 ```
 If you already use firebase push notifications you can extend `HyperTrackMessagingService` instead of Firebase, or declare two receivers side by side, if you wish.
+Check out [Quickstart app with notifications integrated](http://example.com) if you prefer to get a look at example.
+
 #### You are all set
 
 You can now run the app and start using HyperTrack. You can see your devices on the [dashboard](#dashboard).
